@@ -18,8 +18,529 @@
 
 
 <!...internal css for web page ....>
-<link rel="stylesheet" type="text/css" href="main.css">
+<style>
+  body{
 
+background-color: white;
+
+}
+
+/* Style for the preloader */
+.preloader {
+  position: fixed;
+  z-index: 9999;
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+  background: #fff;
+}
+
+/* Style for the loader animation */
+.loader {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 4px solid #f3f3f3;
+  border-top: 4px solid #3498db;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  animation: spin 2s linear infinite;
+}
+
+/* Animation for the loader */
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+
+
+
+/* Style for the preloader */
+.preloader {
+  position: fixed;
+  z-index: 9999;
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+  background: #fff;
+}
+
+/* Style for the loader animation */
+.loader {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 4px solid #f3f3f3;
+  border-top: 4px solid #3498db;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  animation: spin 2s linear infinite;
+}
+
+/* Animation for the loader */
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+
+
+
+
+
+
+
+
+h1{
+font-family:cooper;
+font-size:50px;
+
+}
+
+body{
+
+background-color: white;
+
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+
+
+    border-style: solid;
+    border-color: black;
+    background-color:navy blue;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+
+.topnav li a{
+
+text-decoration:none;
+padding:18px 16px;
+font-size:23px;
+color:black;
+font-family:cooper;
+
+}
+li {
+  float: left;
+}
+
+li a:hover{
+
+backgound-color:black;
+color : black;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: cursive;
+text-align: center;
+}
+
+
+
+li a:hover {
+  background-color: white;
+}
+
+
+
+.footer{
+background-color: black;
+background-color:rgb(0, 0, 0);
+color: white;
+}
+
+
+p{
+color: white;
+font-size:15px;
+
+}
+p a{
+
+color: red;
+}
+
+ class="newul{
+color:white;
+
+}
+.newul{
+
+color:red;
+
+}
+.newul a{
+color:white;
+text-decoration:none;
+padding: 0px 28px;
+}
+
+#newulh1{
+
+padding: 0px 28px;
+}
+#fdiv{
+background-color:black;
+padding: 0px 750px;
+
+}
+#locaside p{
+font-size:36;
+
+}
+
+
+.newf img{
+padding:3px 4px;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+
+}
+#btn{
+float:right;
+
+}
+#fdiv{
+background-color:black;
+padding: 0px 750px;
+
+}
+#locaside p{
+font-size:36;
+
+}
+
+
+.newf img{
+padding:3px 4px;
+}
+
+
+
+<!.. image slider css code ...>
+
+
+
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+.divp p{
+color:black;
+
+}
+.marqq marquee{
+background-color: grey;
+color:WHITE;
+border-radius: 8px;
+width:1500px;
+font-family: CURSIVE;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+
+<!..using aside tag css...>
+aside{
+float:right;
+
+
+}
+.asider{
+margin:60px;
+text-align:right;
+
+}
+
+
+
+
+
+
+
+
+
+<!..end of the aside tag...>
+
+.asider{
+
+float:right;
+
+
+}/*aside{
+  background-color: lightgray;
+  cursor:pointer;
+border-radius:8px;
+text-decoration:none;
+  padding-left: 15px;
+  margin-left: 1265px;
+}*/
+aside {
+  width: 50%;
+  height:540px;
+  padding-left: 15px;
+  margin-left: 15px;
+  float: right;
+   padding-left: 1px;
+   align-content: center;
+  background-color: lightgray;
+  margin-left: -1955px;
+}
+p{
+  color:black;
+}
+/*BUTTON FOR THE ASIDE SUBMIT */
+
+.btnaside{
+
+justify-content: center;
+text-decoration: none;
+width: 6px;
+padding: 6px;
+background: #1E90FF;
+text-transform: uppercase;
+color:#fff ;
+border-radius: 5px;
+cursor: pointer;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+-webkit-transition-property:box-shadow,transform;
+transition-property:box-shadow,transform;
+
+
+}
+.btnaside:hover,.btnaside:focus,.btnaside:active{
+box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+-webkit-transform:scale(1.1);
+transform: scale(1.1);
+
+/*   
+   this is the css of the aside of lef
+ */
+
+.section{
+float:left;
+text-align: left;
+
+
+}
+h1 #sph1{
+
+font-size: 70px;
+  font-weight: 600;
+  background-image: linear-gradient(to left, #553c9a, #b393d3);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+
+}
+#sph1::before{
+content: '';
+position: absolute;
+width: 100px;
+height: 3px;
+background-color: crimson;
+bottom: -10px;
+left:50%;
+transformation:translatex(-50%);
+animation: animate 4s linear infinite;
+
+
+
+}
+@keyframes animate{
+
+0%{
+
+width: 100px;
+
+
+}
+
+50%{
+
+  width: 200px;
+}
+100%{
+
+width: 100px;
+
+}
+}
+.content{
+
+width: 20px;
+height: 19px;
+}
+.text{
+  color:black;
+}
+  </style>
 </head>
 <body>
   <div class="preloader">
